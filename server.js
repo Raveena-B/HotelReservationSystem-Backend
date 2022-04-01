@@ -44,4 +44,12 @@ app.use("/foodIncome", require("./BACKEND/routes/foodIncome"));
 app.use("/eventIncome", require("./BACKEND/routes/eventIncome"));
 
 
+//view supplier payments route
+
+app.use("/supplierPayment", require("./BACKEND/routes/supplierPayment"));
+
+
+//view other payment route
+
+app.use("/otherPayment", require("./BACKEND/routes/otherPayment"));
 
